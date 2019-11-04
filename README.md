@@ -12,3 +12,7 @@ css
 
 Resources:
 https://www.w3schools.com/css/css_navbar.asp
+
+
+Link to live site:
+https://lindgrenba.github.io/google-homepage/
