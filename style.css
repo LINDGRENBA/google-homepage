@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: small;
+    color: #222;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR TOP AND FOOTER*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item, .footer-item {
+  display: block;
+  padding: 20px;
+}
+
+li.left {
+  float: left;
+}
+
+li.right {
+  float: right;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #f2f2f2;
+}
+
+/*LOGO AND SEARCH*/
+
+.logo-and-search div {
+    text-align: center;
+}
+
+#hplogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 109px;
+}
+
+.search-box {
+    width: 480px;
+    height: 40px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+    top: 220px;
+    left: 580px;
+    padding: 10px 20px 10px 50px;
+    border-radius: 50px;
+    border: .5px solid lightgrey;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+}
+
+.search-icon {
+  position: relative;
+  left: 50px;
+  top: 10px;
+}
+
+/* BUTTONS */
+
+button {
+    background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
+    margin: 10px;
+    padding: 11px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+}
+
+button:hover {
+  border: 1px solid grey;
+}
+
+a {
+  text-decoration: none;
+  color: #5F6368;
+}
